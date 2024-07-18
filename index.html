@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>ToDo</title>
   </head>
   <body>
@@ -13,26 +14,27 @@
           type="text"
           class="input-field"
           id="todoInput"
-          placeholder="add a new todo"
+          placeholder="Add a new todo"
         />
+        <button class="btn">Add</button>
       </div>
+    
       <ul class="scroll">
         <li id="todoList"></li>
       </ul>
       <div>
-        <hr class="counter">
+        <hr class="counter" />
         <div class="counter-container">
-            <p> <span>0</span> total todo</p>
-            <button id="deleteButton">Delete All</button>
+          <p><span>0</span> total todo</p>
+          <button id="deleteButton">Delete All</button>
         </div>
       </div>
-      <button class="btn">Add</button>
     </section>
     <footer>
-        <div class="footer">
-            <p class="made-by"> Made by</p>
-            <p class="author"> Author</p>
-        </div>
+      <div class="footer">
+        <p class="made-by">Made by</p>
+        <p class="author">Author</p>
+      </div>
     </footer>
   </body>
 </html>
